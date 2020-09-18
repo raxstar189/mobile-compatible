@@ -1,0 +1,859 @@
+body
+{
+     margin: 0;
+     font-family: 'Bai Jamjuree', sans-serif;
+     overflow:  hidden auto;
+}
+
+  /* its all about navigation */
+
+.navigation
+{
+    position: relative;
+}
+
+
+
+.kichu-ekta
+{
+    position: absolute;
+    width: 100%;
+}
+
+
+.kichu-ekta2
+{
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-back
+{
+    width: 100%;
+}
+.nav-logo
+{
+    width: 8%;
+    margin-top: 50px;
+}
+
+
+/* the big punch line baby */
+
+.title-head
+{
+   font-weight: 600;
+   font-size: 30px;
+   color: hsl(210, 10%, 33%);
+   text-align: center;
+   margin-bottom: 10px;
+}
+.title-sentence
+{
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    
+}
+
+
+/* tap me baby */
+
+.button1
+{
+    margin: 10px;
+    border-radius: 30px;
+    background:hsl(171, 66%, 44%);
+    border: none;
+}
+.button1:hover
+{
+    
+    background: hsl(171, 86%, 57%);
+    color: grey;
+    box-shadow: 0 0 20px hsla(171, 86%, 57%,.5), 0 0 7px rgba(128, 128, 128, 0.61);
+}
+.button2
+{
+    margin: 10px;
+    border-radius: 30px;
+    background:hsl(233, 100%, 69%);
+    border: none;
+}
+.button2:hover
+{
+    
+    background: hsl(233, 100%, 83%);
+    color: black;
+    box-shadow: 0 0 20px hsla(233, 100%, 69%,.5), 0 0 7px rgba(128, 128, 128, 0.637);
+}
+.button-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* first para baby */
+
+.first-para-head
+{
+ font-weight: 600;
+ font-size: 28px;
+ text-align: center;
+ color: hsl(210, 10%, 33%);
+ margin-top: 100px;
+}
+.first-para-sentence
+{
+       color: hsl(201, 11%, 66%);
+       text-align: center;
+}
+
+
+/* second para with images babyy  */
+
+.second-para-container
+{
+    margin-top: 120px;
+    display: flex;
+}
+
+.second-para-image
+{
+    width: 70%;
+    position: relative;
+    left: 170px;
+    
+    
+}
+.second-para-image-holder
+{
+    flex-grow: 0;
+    flex-shrink: 1;
+    
+}
+.second-para-sentence-holder
+{
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+/* second para sentence modification  */
+
+.firstoneone
+{
+  color:  hsl(210, 10%, 33%);
+  font-size: 35px;
+  margin-bottom: 8px;
+  
+}
+.firstonetwo
+{
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+
+}
+.secondoneone
+{
+
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    margin-bottom: 8px;
+
+}
+.secondonetwo
+{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+
+}
+.thirdoneone
+{
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+.thirdonetwo
+{
+    color: hsl(201, 11%, 66%);
+
+}
+
+
+/* third para start here baby  */
+
+.third-para-container
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.third-para-heading
+{
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+.third-para-sentence
+{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+}
+
+
+/* biggest image  */
+
+.biggest-image-smallcont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+   /* fourth para start baby  */
+    
+   .fourth-para-head
+   {
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 100px;
+   }
+   .fourth-para-sentence
+   {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+    text-align: center;
+
+   }
+
+   /* fifth para start baby  */
+
+   .fifth-para-container
+   {
+       margin-top: 100px;
+       margin-bottom: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding-left: 30px;
+       padding-right: 30px;
+   }
+   .firsthead
+   {
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    text-align: center;
+   }
+   .firstsentence
+   {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+    text-align: center;
+   }
+   .secondhead
+   {
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    text-align: center;
+   }
+   .secondsentence
+   {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+    text-align: center;
+   }
+   .thirdhead
+   {
+    color:  hsl(210, 10%, 33%);
+    font-size: 35px;
+    text-align: center;
+   }
+   .thirdsentence
+   {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+    text-align: center;
+   }
+   
+
+
+   /* company logos  */
+
+   .company-logo
+   {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 100px;
+   }
+
+   /* sisxth para */
+   
+
+   .sixth-para-head
+   {
+    color:  hsl(210, 10%, 33%);
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+   }
+   .sixth-para-sentence
+   {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 20px;
+    text-align: center;
+   }
+
+     /* 2nd buttons here */
+
+     .second-buttons
+     {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 70px;
+     }
+
+
+  /* finally footer  */
+   
+
+  .footer
+  {
+      height: 100px;
+      margin-left: 0;
+      margin-right: 0;
+      background:rgba(214, 214, 214, 0.411);
+      box-sizing: border-box;
+      
+
+
+      
+  }
+  .footer-logo
+  {
+      width: 80px;
+      height:  80px;
+      margin-top: 10px;
+  }
+
+.first-col
+{
+    display: flex;
+    justify-content: center;
+}
+.second-col
+{
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.second-col-1
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.second-col-1:hover
+{
+    color:  hsl(171, 66%, 44%);
+}
+.second-col-2
+{
+    align-self: flex-end;
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+
+}
+.second-col-2:hover
+{
+    color:  hsl(171, 66%, 44%);
+}
+.second-col-3
+{
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+.second-col-3:hover
+{
+    color:  hsl(171, 66%, 44%);
+}
+.second-col-4
+{
+     align-self: flex-end;
+     position: absolute;
+     right: 10px;
+     color:  hsl(210, 10%, 33%);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.second-col-4:hover
+{
+    color:  hsl(171, 66%, 44%);
+}
+.third-col-1
+{
+   font-weight: 600;
+   font-size: 14px;
+   margin-top: 20px;
+   margin-left: 70px;
+    
+}
+.third-col-1:hover
+{
+    color:  hsl(171, 66%, 44%);
+}
+
+
+/* social icons  */
+  
+
+.fab
+{
+    font-size: 40px;
+    color:  hsl(171, 66%, 44%);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.fab:hover
+{
+    color:grey;
+}
+
+.shaua
+{
+    display: none;
+}
+
+/* pc web ended  */
+
+@media(max-width:500px)
+{
+    body
+{
+     margin: 0;
+     font-family: 'Bai Jamjuree', sans-serif;
+     overflow:  hidden auto;
+}
+
+  /* its all about navigation */
+
+.navigation
+{
+    position: relative;
+}
+
+
+
+.kichu-ekta
+{
+    position: absolute;
+    width: 100%;
+}
+
+
+.kichu-ekta2
+{
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-back
+{
+    width: 100%;
+}
+.nav-logo
+{
+    width: 20%;
+   
+}
+
+
+/* the big punch line baby */
+
+.title-head
+{
+   font-weight: 600;
+   font-size: 25px;
+   color: hsl(210, 10%, 33%);
+   text-align: center;
+   margin-bottom: 10px;
+}
+.title-sentence
+{
+    font-size: 12px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    
+}
+
+
+/* tap me baby */
+
+
+
+.button1,.button2
+{
+    font-size: 12px;
+}
+.button-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* first para baby */
+
+.first-para-head
+{
+ font-size: 25px;
+ margin-top: 60px;
+}
+.first-para-sentence
+{
+   font-size: 12px;
+}
+
+
+/* second para with images babyy  */
+
+.second-para-container
+{
+    margin-top: 40px;
+    display: flex;
+}
+
+.second-para-image
+{
+    width: 70%;
+    position: relative;
+    left:0px;
+    
+    
+    
+}
+.second-para-image-holder
+{
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.second-para-sentence-holder
+{
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+/* second para sentence modification  */
+
+.firstoneone
+{
+  font-size: 25px;
+  margin-bottom: 4px;
+  
+}
+.firstonetwo
+{
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.secondoneone
+{
+
+    font-size: 25px;
+    margin-bottom: 4px;
+
+}
+.secondonetwo
+{
+    margin-bottom: 20px;
+    font-size: 13px;
+
+}
+.thirdoneone
+{
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+.thirdonetwo
+{
+    font-size: 13px;
+}
+
+
+/* third para start here baby  */
+
+.third-para-container
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.third-para-heading
+{
+   
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.third-para-sentence
+{
+   font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+/* biggest image  */
+
+.biggest-image-smallcont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.biggest-image
+{
+    width: 90%;
+}
+
+   /* fourth para start baby  */
+    
+   .fourth-para-head
+   {
+    font-size: 30px;
+    margin-bottom: 4px;
+    text-align: center;
+    margin-top: 40px;
+   }
+   .fourth-para-sentence
+   {
+    font-size: 14px;
+   }
+
+   /* fifth para start baby  */
+
+   .fifth-para-container
+   {
+       margin-top: 30px;
+       margin-bottom: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding-left: 30px;
+       padding-right: 30px;
+   }
+   .firsthead
+   {
+    font-size: 30px;
+   }
+   .firstsentence
+   {
+    margin-bottom: 30px;
+    font-size: 14px;
+   }
+   .secondhead
+   {
+    font-size: 30px;
+   }
+   .secondsentence
+   {
+    margin-bottom: 30px;
+    font-size: 14px;
+   }
+   .thirdhead
+   {
+    font-size: 30px;
+   }
+   .thirdsentence
+   {
+    margin-bottom: 30px;
+    font-size: 14px;
+   }
+   
+
+
+   /* company logos  */
+
+   .company-logo
+   {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 30px;
+   }
+
+   .company-img
+   {
+      margin-bottom: 2rem;
+   }
+
+   /* sisxth para */
+   
+
+   .sixth-para-head
+   {
+    font-size: 25px;
+    
+   }
+   .sixth-para-sentence
+   {
+    
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+   }
+
+     /* 2nd buttons here */
+
+     .second-buttons
+     {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 70px;
+     }
+     .second-button3-container
+     {
+        display:flex;
+        justify-content: center;
+      }
+      .second-button4-container
+      {
+         display:flex;
+         justify-content: center;
+       }
+      .button3
+      {
+        margin-bottom: 10px;
+        border-radius: 30px;
+        background:hsl(171, 66%, 44%);
+        border: none;
+      }
+      .button4
+      {
+        margin-bottom: 10px;
+        border-radius: 30px;
+        background:hsl(171, 66%, 44%);
+        border: none;
+      }
+
+
+       /* finally footer  */
+   
+
+  .footer
+  {
+      height: 200px;
+      margin-left: 0;
+      margin-right: 0;
+      box-sizing: border-box;
+      
+
+
+      
+  }
+  .footer-logo
+  {
+      width: 70px;
+      height:  70px;
+      margin-top: 10px;
+  }
+
+.first-col
+{
+    display: inline-block;
+    justify-content: center;
+    align-content: space-around;
+    display: flex;
+}
+.second-col
+{
+    display:none;
+}
+
+
+.third-col-1
+{
+  display: none;
+}
+
+
+
+/* social icons  */
+  
+.social-div
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.fab
+{
+    font-size: 40px;
+    color:  hsl(171, 66%, 44%);
+    margin-left: 60px;  
+    margin-right: 20px;
+
+    margin-top: 0px;
+    
+}
+
+
+.fab:hover
+{
+    color:grey;
+}
+
+.shaua
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-links
+{
+    font-size: 15px;
+    margin: 0 20px;
+    color: hsl(201, 11%, 66%);
+}
+
+
+
+}
